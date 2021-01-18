@@ -59,8 +59,12 @@ function Apartments() {
             onChange={(e) => handleFilterChange(e, "guests")}
           >
             <option value="0">0</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
             <option value="4">4 guests</option>
             <option value="5">5 guests</option>
+            <option value="6">6 guests</option>
+            <option value="9">9 guests</option>
             <option value="10">10 guests</option>
           </select>
           <button onClick={filterButton}>search</button>

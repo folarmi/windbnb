@@ -4,7 +4,7 @@ import Apartment from "./Apartment";
 // import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 
 function Apartments() {
-  const [apartments, setApartments] = useState(info);
+  const [apartments] = useState(info);
   const [apartmentsToDisplay, setApartmentsToDisplay] = useState(info);
   const [location, setLocation] = useState("Helsinki");
   const [guests, setGuests] = useState("4");
